@@ -1,7 +1,18 @@
 ﻿@{
-    ViewBag.Title = "About";
+  ViewBag.Title = "About";
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
 
 <p>Use this area to provide additional information.</p>
+
+@section scripts{
+
+  <script src="~/appScriptsJS/AjaxWithJquery.js"></script>
+  <script src="~/appScriptsJS/CustomerUI.js"></script>
+
+  $(document).ready(function(){
+      var customer = new CustomerModule.CusterUI();
+  customer.SelectAll(customerUI.LoadCustomers);
+  });
+}
