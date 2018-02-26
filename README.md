@@ -26,3 +26,5 @@
   }
 * Create a app.ts file  
 * When project builds, js files will be created in 'appScriptsJS'  
+
+[Typescript to perform CRUD](https://www.codeguru.com/csharp/.net/using-typescript-to-perform-crud-operations.htm)
