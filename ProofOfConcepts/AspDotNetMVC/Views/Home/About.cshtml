@@ -7,12 +7,17 @@
 <p>Use this area to provide additional information.</p>
 
 @section scripts{
+<script src="~/appScriptsJS/AjaxWithJquery.js"></script>
+<script src="~/appScriptsJS/CustomerUI.js"></script>
+  
+  
+  
+  <script>
+    $(document).ready(function () {
+      var customer = new CustomerModule.Customer();
+      var customerUI = new CustomerUIModule.CustomerUI();
+      customer.SelectAll(customerUI.LoadCustomers);
+    });
+  </script>
 
-  <script src="~/appScriptsJS/AjaxWithJquery.js"></script>
-  <script src="~/appScriptsJS/CustomerUI.js"></script>
-
-  $(document).ready(function(){
-      var customer = new CustomerModule.CusterUI();
-  customer.SelectAll(customerUI.LoadCustomers);
-  });
 }
