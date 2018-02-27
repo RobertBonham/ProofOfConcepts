@@ -1,3 +1,5 @@
+##### This is just a testbed for me to try out various articles and blogs I come across, if it helps you great, but overall it's mostly meant for reference at this point.  
+
 # ProofOfConcepts
 
 [Using GitHub with Visual Studio 2017](https://blogs.msdn.microsoft.com/benjaminperkins/2017/04/04/setting-up-and-using-github-in-visual-studio-2017/)  
