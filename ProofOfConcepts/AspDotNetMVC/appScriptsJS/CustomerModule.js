@@ -53,10 +53,10 @@ var CustomerModule;
             return 0;
         };
         Customer.prototype.SelectAll = function (callback) {
-            $.getJSON("api/customers", callback);
+            $.getJSON("/api/customers", callback);
         };
         return Customer;
     }());
     CustomerModule.Customer = Customer;
 })(CustomerModule || (CustomerModule = {}));
-//# sourceMappingURL=AjaxWithJquery.js.map
+//# sourceMappingURL=CustomerModule.js.map

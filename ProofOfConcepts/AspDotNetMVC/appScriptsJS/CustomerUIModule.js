@@ -1,5 +1,5 @@
 /// <reference path="../scripts/typings/jquery/jquery.d.ts" />
-/// <reference path="ajaxwithjquery.ts" />
+/// <reference path="CustomerModule.ts" />
 var CustomerUIModule;
 (function (CustomerUIModule) {
     var CustomerUI = /** @class */ (function () {
@@ -68,4 +68,4 @@ var CustomerUIModule;
     }());
     CustomerUIModule.CustomerUI = CustomerUI;
 })(CustomerUIModule || (CustomerUIModule = {}));
-//# sourceMappingURL=CustomerUI.js.map
+//# sourceMappingURL=CustomerUIModule.js.map

@@ -8,9 +8,9 @@ using AspDotNetMVC.Models;
 
 namespace AspDotNetMVC.Controllers
 {
-    public class CustomerController : ApiController
+    public class CustomersController : ApiController
     {
-        // GET: api/CustomerAPI
+     
         public IEnumerable<Customer> Get()
         {
             return CustomerFactory.CreateCustomerList();

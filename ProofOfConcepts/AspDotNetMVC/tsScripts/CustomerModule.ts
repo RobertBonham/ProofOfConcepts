@@ -66,7 +66,7 @@ module CustomerModule {
         }
 
         SelectAll(callback: any) {
-            $.getJSON("api/customers", callback);
+            $.getJSON("/api/customers", callback);
         }
 
     }

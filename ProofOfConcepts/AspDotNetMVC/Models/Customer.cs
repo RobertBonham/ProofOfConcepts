@@ -7,7 +7,7 @@ namespace AspDotNetMVC.Models
 {
     public class Customer
     {
-        public int Id { get; set; }
+        public int CustomerID { get; set; }
         public string CompanyName { get; set; }
         public string ContactName { get; set; }
         public string Country { get; set; }
@@ -18,7 +18,7 @@ namespace AspDotNetMVC.Models
         public static Customer CreateCustomer(int id) {
             var customer = new Customer
             {
-                Id = id,
+                CustomerID = id,
                 CompanyName = "Company Name "+id,
                 ContactName = "Contact Name "+id,
                 Country = "U.S.A."

@@ -154,7 +154,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\CustomerAPIController.cs" />
+    <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -164,6 +164,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="appScriptsJS\app.js" />
+    <Content Include="appScriptsJS\CustomerModule.js" />
+    <Content Include="appScriptsJS\CustomerUIModule.js" />
+    <Content Include="appScriptsJS\Greeter.js" />
+    <Content Include="appScriptsJS\ModuleNamespace.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="favicon.ico" />
@@ -176,6 +180,10 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="appScriptsJS\app.js.map" />
+    <Content Include="appScriptsJS\CustomerModule.js.map" />
+    <Content Include="appScriptsJS\CustomerUIModule.js.map" />
+    <Content Include="appScriptsJS\Greeter.js.map" />
+    <Content Include="appScriptsJS\ModuleNamespace.js.map" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -221,9 +229,9 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
-    <TypeScriptCompile Include="tsScripts\AjaxWithJquery.ts" />
+    <TypeScriptCompile Include="tsScripts\CustomerModule.ts" />
     <TypeScriptCompile Include="tsScripts\app.ts" />
-    <TypeScriptCompile Include="tsScripts\CustomerUI.ts" />
+    <TypeScriptCompile Include="tsScripts\CustomerUIModule.ts" />
     <TypeScriptCompile Include="tsScripts\Greeter.ts" />
     <TypeScriptCompile Include="tsScripts\ModuleNamespace.ts" />
   </ItemGroup>

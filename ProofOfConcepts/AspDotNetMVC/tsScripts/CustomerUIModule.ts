@@ -1,5 +1,5 @@
 ﻿/// <reference path="../scripts/typings/jquery/jquery.d.ts" />
-/// <reference path="ajaxwithjquery.ts" />
+/// <reference path="CustomerModule.ts" />
 
 module CustomerUIModule {
     export class CustomerUI {
