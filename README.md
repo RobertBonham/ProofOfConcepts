@@ -31,4 +31,4 @@
 
 [Typescript to perform CRUD with JQUERY](https://www.codeguru.com/csharp/.net/using-typescript-to-perform-crud-operations.htm)  
 [Typescript to perform CRUD without JQUERY](http://www.binaryintellect.net/articles/d50a4ea1-fd84-4165-a27f-3d6cad2e4a3d.aspx)  
-
+[Typescript CRUD using Aurelia](http://www.dotnetfunda.com/articles/show/3345/crud-using-aurelia-fetch-client-and-webapi-20)
